@@ -98,7 +98,7 @@ namespace MazitovaOneHour
 
                 while (monsterHealth > 0 && player.Health > 0)
                 {
-                    Console.WriteLine("Выберите оружие: 1 - Меч, 2 - Лук");
+                    Console.WriteLine("Выберите оружие: 1 - Меч, 2 - Лук, 3 - выпить зелье");
                     int choice = int.Parse(Console.ReadLine());
 
                     if (choice == 1)
