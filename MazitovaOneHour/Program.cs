@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MazitovaOneHour.NumericalQuestPlus;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace MazitovaOneHour
     {
         static void Main(string[] args)
         {
+            Game game = new Game();
+            game.Start();
         }
     }
 }
