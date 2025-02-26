@@ -28,18 +28,19 @@ namespace MazitovaOneHour
         public int Gold { get; set; } = 0;
         public int Arrows { get; set; } = 5;
 
-        public void UsePot()
+        public void UsePotion()
         {
-            if(Potions > 0)
+            if (Potions > 0)
             {
-                Health += 10;
-                Potions--;
-                Console.WriteLine("Вы восстановили 10 здоровья!");
-                else
-                {
-                    Console.WriteLine("Нет зелий!");
-                }
+                Health += 10; 
+                Potions--; 
+                Console.WriteLine("Вы использовали зелье и восстановили 10 HP.");
+            }
+            else
+            {
+                Console.WriteLine("У вас нет зелий!");
             }
         }
     }
-}
+    }
+

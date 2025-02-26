@@ -130,7 +130,7 @@ namespace MazitovaOneHour
                     }
                     else if (choice == 3)
                     {
-                        player.UsePot();
+                        player.UsePotion();
                     }
 
 
